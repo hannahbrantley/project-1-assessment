@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+
+button {
+    color: white;
+    background-color: rgb(169, 169, 169);
+    border: none;
+    border-radius: 10%;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    margin: 10px;
+}
+
+input {
+    border: 5px solid rgb(169, 169, 169);
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
